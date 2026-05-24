@@ -1,25 +1,25 @@
 class PluginKitAi < Formula
   desc "AI CLI plugin runtime with a first-class Go SDK"
   homepage "https://github.com/777genius/plugin-kit-ai"
-  version "1.2.2"
+  version "1.2.3"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/777genius/plugin-kit-ai/releases/download/v1.2.2/plugin-kit-ai_1.2.2_darwin_arm64.tar.gz"
-      sha256 "dbe555e383b56d3348cc4759265cff41088f68f6adba9184bc9ea4ec1c55ebe1"
+      url "https://github.com/777genius/plugin-kit-ai/releases/download/v1.2.3/plugin-kit-ai_1.2.3_darwin_arm64.tar.gz"
+      sha256 "736123d74b6a48ef7e141e9652c13b45aa29978f50a45db185c003405f503d01"
     else
-      url "https://github.com/777genius/plugin-kit-ai/releases/download/v1.2.2/plugin-kit-ai_1.2.2_darwin_amd64.tar.gz"
-      sha256 "d5fe654372b9d249a32a9ec53ad2c5780aceeed687f17c3143f2b929b673a847"
+      url "https://github.com/777genius/plugin-kit-ai/releases/download/v1.2.3/plugin-kit-ai_1.2.3_darwin_amd64.tar.gz"
+      sha256 "3f237c5df787302841e8c1121004440867f8b1350cb7e93d9044f788c45f61ac"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/777genius/plugin-kit-ai/releases/download/v1.2.2/plugin-kit-ai_1.2.2_linux_arm64.tar.gz"
-      sha256 "84e456d7ba520a5764aef52593ab31c9e6e61c0987b89af621de51ecadc0dfdf"
+      url "https://github.com/777genius/plugin-kit-ai/releases/download/v1.2.3/plugin-kit-ai_1.2.3_linux_arm64.tar.gz"
+      sha256 "d8c326a754fc79b81686df0e0ed4b38790533e33a0f67df93a0e627a66015540"
     else
-      url "https://github.com/777genius/plugin-kit-ai/releases/download/v1.2.2/plugin-kit-ai_1.2.2_linux_amd64.tar.gz"
-      sha256 "d49f3ece757c2f2698a4ad6fc2291f29c19baacebf8c0382eb292bfe3f1090e6"
+      url "https://github.com/777genius/plugin-kit-ai/releases/download/v1.2.3/plugin-kit-ai_1.2.3_linux_amd64.tar.gz"
+      sha256 "c9dcdc7f115b977560fff289547d79475e4fdf5b77d0125e53a8cf941625c047"
     end
   end
 
