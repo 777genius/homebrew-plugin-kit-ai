@@ -1,25 +1,25 @@
 class PluginKitAi < Formula
   desc "AI CLI plugin runtime with a first-class Go SDK"
   homepage "https://github.com/777genius/plugin-kit-ai"
-  version "2.0.4"
+  version "2.0.5"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/777genius/plugin-kit-ai/releases/download/plugin-kit-ai-v2.0.4/plugin-kit-ai_2.0.4_darwin_arm64.tar.gz"
-      sha256 "d8e62f0c693d574fd50d0e9eba0e0b7459bcc196918410cf65bec8b071751e2e"
+      url "https://github.com/777genius/plugin-kit-ai/releases/download/plugin-kit-ai-v2.0.5/plugin-kit-ai_2.0.5_darwin_arm64.tar.gz"
+      sha256 "4202a3f93547ece8d68d8046e1016cbf6d075d318b86aeba1c71e7a203988315"
     else
-      url "https://github.com/777genius/plugin-kit-ai/releases/download/plugin-kit-ai-v2.0.4/plugin-kit-ai_2.0.4_darwin_amd64.tar.gz"
-      sha256 "b64f08f20e7db04b9f7750270795ae5b3da9d653fc2c379b51cffdc1751c8a59"
+      url "https://github.com/777genius/plugin-kit-ai/releases/download/plugin-kit-ai-v2.0.5/plugin-kit-ai_2.0.5_darwin_amd64.tar.gz"
+      sha256 "057de8170fd6a2ba393a6a6cc0dc982eeb2c21d4d77d6921ddab1f9d258512ec"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/777genius/plugin-kit-ai/releases/download/plugin-kit-ai-v2.0.4/plugin-kit-ai_2.0.4_linux_arm64.tar.gz"
-      sha256 "a09d704e4d012f8ffede0ca415bfa2147a384516707c729a11cf5bbbf6d1a26f"
+      url "https://github.com/777genius/plugin-kit-ai/releases/download/plugin-kit-ai-v2.0.5/plugin-kit-ai_2.0.5_linux_arm64.tar.gz"
+      sha256 "cdb606d0074faf764553e0c23c2dd925948d47ffd483ee5a9ba092ef626e3c29"
     else
-      url "https://github.com/777genius/plugin-kit-ai/releases/download/plugin-kit-ai-v2.0.4/plugin-kit-ai_2.0.4_linux_amd64.tar.gz"
-      sha256 "bd61ec0447a1670275fc397622b7594a4a652dbab633f9e6e47d38750941254d"
+      url "https://github.com/777genius/plugin-kit-ai/releases/download/plugin-kit-ai-v2.0.5/plugin-kit-ai_2.0.5_linux_amd64.tar.gz"
+      sha256 "819b73b6c012aa2f413fd0a618b343a1adb214b2e87dfde79de38f89564c0ef0"
     end
   end
 
